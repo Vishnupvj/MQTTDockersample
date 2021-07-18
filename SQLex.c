@@ -239,6 +239,9 @@ void onConnect1(void* context, MQTTAsync_successData* response)
 
 int main(int argc, char* argv[])
 {
+		setbuf(stdout,NULL);
+		printf("C-Program started");
+		sleep(5);
         MQTTAsync_connectOptions conn_opts = MQTTAsync_connectOptions_initializer;
         MQTTAsync_disconnectOptions disc_opts = MQTTAsync_disconnectOptions_initializer;
         MQTTAsync_message pubmsg = MQTTAsync_message_initializer;
