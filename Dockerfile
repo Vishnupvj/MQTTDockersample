@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 WORKDIR /vish1
+WORKDIR /vish1
 RUN apt update &&\
 apt install -y mosquitto &&\
 apt install -y mosquitto-clients &&\
