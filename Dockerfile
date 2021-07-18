@@ -7,6 +7,7 @@ apt install -y mosquitto-clients &&\
 apt update &&\
 apt install -y python3.8 &&\
 apt install -y python3-pip &&\
+apt-get install -y libsqlite3-dev &&\
 apt install -y git &&\
 apt update &&\
 pip3 install paho-mqtt &&\
