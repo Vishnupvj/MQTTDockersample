@@ -21,6 +21,7 @@ apt install -y supervisor
 WORKDIR /vish1
 WORKDIR /vish1
 WORKDIR /vish1
+WORKDIR /vish1
 RUN git clone https://github.com/Vishnupvj/MQTTDockersample.git
 WORKDIR /vish1/MQTTDockersample
 RUN make
