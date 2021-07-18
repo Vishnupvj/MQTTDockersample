@@ -10,6 +10,7 @@ apt install -y git &&\
 apt update &&\
 pip3 install paho-mqtt &&\
 git clone https://github.com/eclipse/paho.mqtt.c.git &&\
+git clone https://github.com/azadkuh/sqlite-amalgamation &&\
 apt-get install -y libssl-dev&&\
 cd ./paho.mqtt.c &&\
 make &&\
